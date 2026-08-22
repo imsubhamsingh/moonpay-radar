@@ -1,0 +1,182 @@
+{
+  "brand": "MoonPay Radar",
+  "clients": [
+    {
+      "name": "Trust Wallet",
+      "handles": [
+        "TrustWallet"
+      ]
+    },
+    {
+      "name": "pump.fun",
+      "handles": [
+        "Pumpfun"
+      ]
+    },
+    {
+      "name": "Binance",
+      "handles": [
+        "binance"
+      ]
+    },
+    {
+      "name": "Coinbase",
+      "handles": [
+        "coinbase"
+      ]
+    },
+    {
+      "name": "Ledger",
+      "handles": [
+        "Ledger"
+      ]
+    },
+    {
+      "name": "MoonPay",
+      "handles": [
+        "MoonPay"
+      ]
+    }
+  ],
+  "tweets_per_check": 10,
+  "poll_interval_seconds": 300,
+  "webhook_url": "",
+  "events_dir": "events",
+  "share_port": 8800,
+  "alert_threshold": 4,
+  "_rules_note": "Edit freely. category groups the dashboard; weight sums into score; an event fires at alert_threshold. Patterns are Python regex, matched case-insensitively.",
+  "rules": [
+    {
+      "category": "airdrop",
+      "weight": 5,
+      "pattern": "\\bair\\s?drops?\\b|\\btoken\\s+drop\\b|\\bretro(?:active)?\\s+drop\\b"
+    },
+    {
+      "category": "airdrop",
+      "weight": 4,
+      "pattern": "\\bclaim\\s+(?:your|now|here|tokens?|rewards?|allocation)\\b"
+    },
+    {
+      "category": "giveaway",
+      "weight": 4,
+      "pattern": "\\bgive\\s?aways?\\b|\\braffle\\b|\\bsweepstakes?\\b|\\blucky\\s+draw\\b"
+    },
+    {
+      "category": "giveaway",
+      "weight": 3,
+      "pattern": "\\b(?:rt|retweet)\\s*(?:\\+|&|and)\\s*follow\\b|\\btag\\s+\\d+\\s+friends?\\b"
+    },
+    {
+      "category": "wallet_action",
+      "weight": 6,
+      "pattern": "\\bconnect\\s+(?:your\\s+)?wallet\\b|\\bverify\\s+(?:your\\s+)?wallet\\b"
+    },
+    {
+      "category": "wallet_action",
+      "weight": 6,
+      "pattern": "\\bseed\\s+phrase\\b|\\bprivate\\s+key\\b|\\bimport\\s+wallet\\b"
+    },
+    {
+      "category": "wallet_action",
+      "weight": 4,
+      "pattern": "\\bsign\\s+(?:the\\s+)?(?:message|transaction)\\b|\\bapprove\\s+(?:the\\s+)?contract\\b"
+    },
+    {
+      "category": "presale",
+      "weight": 4,
+      "pattern": "\\bpre-?sale\\b|\\bwhitelist\\b|\\bwl\\s+spots?\\b|\\bfree\\s+mint\\b|\\bmint\\s+is\\s+live\\b"
+    },
+    {
+      "category": "listing",
+      "weight": 4,
+      "pattern": "\\bwill\\s+list\\b|\\bnow\\s+listed\\b|\\bnew\\s+listing\\b|\\btrading\\s+(?:opens?|is\\s+live)\\b"
+    },
+    {
+      "category": "promo",
+      "weight": 3,
+      "pattern": "\\bbonus\\s+code\\b|\\breferral\\s+code\\b|\\bpromo\\s+code\\b|\\buse\\s+code\\b"
+    },
+    {
+      "category": "promo",
+      "weight": 2,
+      "pattern": "\\b\\d{1,3}\\s*%\\s*(?:bonus|off|apy|back|discount)\\b|\\b(?:zero|no|0%?)\\s+(?:\\w+\\s+){0,2}fees?\\b|\\bfee-?free\\b"
+    },
+    {
+      "category": "promo",
+      "weight": 2,
+      "pattern": "\\brewards?\\s+program\\b|\\bcashback\\b|\\bearn\\s+up\\s+to\\b"
+    },
+    {
+      "category": "referral",
+      "weight": 3,
+      "pattern": "\\brefer(?:ral|rals|ring)?\\b|\\brefer\\s+(?:a\\s+friend|them|your)\\b"
+    },
+    {
+      "category": "referral",
+      "weight": 2,
+      "pattern": "\\bearn\\s+(?:points|rewards?|commission|cashback|\\$)\\b"
+    },
+    {
+      "category": "referral",
+      "weight": 2,
+      "pattern": "\\binvite\\s+(?:them|friends?|your\\s+friends?)\\b"
+    },
+    {
+      "category": "campaign",
+      "weight": 2,
+      "pattern": "\\bcampaign\\b|\\bpromotion\\b|\\bearly\\s+access\\b|\\bwaitlist\\b"
+    },
+    {
+      "category": "urgency",
+      "weight": 2,
+      "pattern": "\\blimited\\s+time\\b|\\bends?\\s+(?:today|tonight|soon|in\\s+\\d+)\\b|\\bfirst\\s+[\\d,]+\\s+users?\\b|\\bhurry\\b|\\blast\\s+chance\\b|\\bfor\\s+the\\s+next\\s+\\d+\\s*(?:h|hrs?|hours?|days?|mins?|minutes?)\\b|\\bnext\\s+\\d+\\s*(?:h|hrs?|hours?)\\b|\\b(?:today|tonight|this\\s+weekend)\\s+only\\b|\\b\\d+\\s*(?:h|hrs?|hours?|days?)\\s+(?:only|left|remaining)\\b"
+    },
+    {
+      "category": "prize",
+      "weight": 2,
+      "pattern": "\\bprize\\s+pool\\b|\\bworth\\s+\\$[\\d,]+|\\b\\$[\\d,]+(?:k|m)?\\s+(?:in\\s+)?(?:prizes?|rewards?)\\b"
+    },
+    {
+      "category": "sponsorship",
+      "weight": 4,
+      "pattern": "\\bsponsor(?:ed|ship|ing|s)?\\b|\\bofficial\\s+partner\\w*\\b|\\bproud\\s+partner\\w*\\b"
+    },
+    {
+      "category": "sponsorship",
+      "weight": 4,
+      "pattern": "\\bpartner(?:ed|ship|ships)\\s+with\\b|\\bin\\s+partnership\\s+with\\b|\\bteam(?:ed|ing)?\\s+up\\s+with\\b|\\bcollab\\w*\\s+with\\b"
+    },
+    {
+      "category": "launch",
+      "weight": 3,
+      "pattern": "\\b(?:introducing|announcing|launching|just\\s+dropped|new\\s+feature)\\b|\\b(?:now\\s+live|is\\s+live|are\\s+live|goes?\\s+live|now\\s+available|you\\s+can\\s+now|rolling\\s+out|roll(?:ing)?\\s+out\\s+to)\\b|\\blive\\s+(?:on|at|in)\\s+\\w+"
+    },
+    {
+      "category": "promo",
+      "weight": 2,
+      "pattern": "\\bget\\s+paid\\b|\\bpaid\\s+(?:daily|weekly|out)\\b|\\bno\\s+kyc\\b"
+    }
+  ],
+  "watch_mentions": [
+    "moonpay"
+  ],
+  "_mentions_note": "handles that, when mentioned by a client, raise a partner_mention event on their own",
+  "fraud": {
+    "watch_terms": [
+      "moonpay airdrop",
+      "moonpay giveaway",
+      "moonpay claim",
+      "moonpay reward",
+      "moonpay presale"
+    ],
+    "official_handles": [
+      "moonpay",
+      "MoonPayHelp"
+    ],
+    "official_domains": [
+      "moonpay.com",
+      "moonpay.io"
+    ],
+    "search_limit": 40
+  }
+}
