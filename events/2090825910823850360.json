@@ -1,0 +1,73 @@
+{
+  "client": "[unauthorized] @Julieannlic",
+  "account": "Julieannlic",
+  "tweet_id": "2090825910823850360",
+  "url": "https://x.com/Julieannlic/status/2090825910823850360",
+  "text": "\ud83c\udf81 MoonPay PayBox Feature Drop! \ud83d\udea8\n\n\u2728 Next-level agent payment system\n\ud83d\udcb5 Connect wallet to win $USDC tokens\n\ud83d\ude80 Hyped opportunity like $SUI events\n\nClaim your free rewards right here \ud83d\udc47\n\nhttps://t.co/gfKlT8yXs9\n\n#Retrodrop #Crypto #Giv",
+  "posted_at": "Fri Aug 21 15:38:37 +0000 2026",
+  "author_name": "Julieann Hibdon",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$SUI",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Crypto",
+      "#Giv",
+      "#Retrodrop"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.166694+00:00",
+  "score": 10,
+  "categories": [
+    "airdrop",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Claim your",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

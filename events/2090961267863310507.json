@@ -1,0 +1,80 @@
+{
+  "client": "[unauthorized] @MallG2x0",
+  "account": "MallG2x0",
+  "tweet_id": "2090961267863310507",
+  "url": "https://x.com/MallG2x0/status/2090961267863310507",
+  "text": "\ud83d\udea8 MoonPay PayBox Reward Drop! \ud83d\ude80\n\n\u2728 Transaction initiation through agents\n\ud83d\udcb5 Connect wallet and earn $USDC rewards\n\u26a1 Major opportunity alongside $APT & $SOL\n\nClaim your $USDC reward right now \ud83d\udc47\n\nhttps://t.co/rhxunuKvUS\n\n#Crypto #MoonPay #Retro",
+  "posted_at": "Sat Aug 22 00:36:29 +0000 2026",
+  "author_name": "MallG",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$APT",
+      "$SOL",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Crypto",
+      "#MoonPay",
+      "#Retro"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.163144+00:00",
+  "score": 12,
+  "categories": [
+    "airdrop",
+    "referral",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Claim your",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    },
+    {
+      "category": "referral",
+      "match": "earn $",
+      "weight": 2
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

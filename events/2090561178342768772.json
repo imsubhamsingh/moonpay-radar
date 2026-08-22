@@ -1,0 +1,84 @@
+{
+  "client": "[unauthorized] @LiLiHadid",
+  "account": "LiLiHadid",
+  "tweet_id": "2090561178342768772",
+  "url": "https://x.com/LiLiHadid/status/2090561178342768772",
+  "text": "\ud83c\udf81 MoonPay PayBox Reward Season! \u26a1\n\n\ud83e\udd16 Agent-initiated smart transactions\n\ud83d\udcb0 Connect wallet & get paid in $USDC\n\ud83d\ude80 Next level growth like $NEAR drops\n\nClaim your free $USDC token now \ud83d\udc47\n\nhttps://t.co/uayZph2UCM\n\n#Retrodrop #Airdrop #Giv",
+  "posted_at": "Thu Aug 20 22:06:40 +0000 2026",
+  "author_name": "Li \ud83c\uddf5\ud83c\uddf8",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "https://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$NEAR",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Airdrop",
+      "#Giv",
+      "#Retrodrop"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.169365+00:00",
+  "score": 17,
+  "categories": [
+    "airdrop",
+    "promo",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Airdrop",
+      "weight": 5
+    },
+    {
+      "category": "airdrop",
+      "match": "Claim your",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    },
+    {
+      "category": "promo",
+      "match": "get paid",
+      "weight": 2
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

@@ -1,0 +1,38 @@
+{
+  "client": "Trust Wallet",
+  "account": "TrustWallet",
+  "tweet_id": "2090062810264781131",
+  "url": "https://x.com/TrustWallet/status/2090062810264781131",
+  "text": "You can now buy crypto with your @CashApp balance through @Moonpay.\n\nCash App Pay is live at MoonPay checkout in Trust Wallet for eligible US customers. No card needed. Live on iOS now, Android coming shortly.\n\nLearn more: https://t.co/4nTH4i6MVq",
+  "posted_at": "2026-08-19T13:06:20.000Z",
+  "author_name": "Trust Wallet",
+  "author_verified": true,
+  "author_verified_type": "Business",
+  "entities": {
+    "urls": [
+      "https://short.trustwallet.com/cash-app-pay"
+    ],
+    "cashtags": [],
+    "hashtags": []
+  },
+  "detected_at": "2026-08-22T12:47:20.048693+00:00",
+  "score": 7,
+  "categories": [
+    "launch",
+    "partner_mention"
+  ],
+  "signals": [
+    {
+      "category": "launch",
+      "match": "You can now",
+      "weight": 3
+    },
+    {
+      "category": "partner_mention",
+      "match": "@Moonpay",
+      "weight": 4
+    }
+  ],
+  "risk": "low",
+  "is_event": true
+}

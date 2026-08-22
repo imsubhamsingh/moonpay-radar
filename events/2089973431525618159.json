@@ -1,0 +1,83 @@
+{
+  "client": "[unauthorized] @dwinstlip",
+  "account": "dwinstlip",
+  "tweet_id": "2089973431525618159",
+  "url": "https://x.com/dwinstlip/status/2089973431525618159",
+  "text": "\ud83d\ude80 MoonPay drops PayBox \u2013 grab $USDC now!\n\n\ud83d\udd17 Connect wallet instantly ($ETH ready)  \n\ud83d\udcb0 Earn $USDC rewards  \n\u26a1\ufe0f Agent\u2011powered fast tx\n\nClaim your share before it\u2019s gone \u2013 act now!  \nhttps://t.co/WaEjjlkPQc\n\n#Crypto #Airdrop #",
+  "posted_at": "Wed Aug 19 07:11:10 +0000 2026",
+  "author_name": "LegendChang",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "https://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$ETH",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Airdrop",
+      "#Crypto"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.172583+00:00",
+  "score": 17,
+  "categories": [
+    "airdrop",
+    "referral",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Airdrop",
+      "weight": 5
+    },
+    {
+      "category": "airdrop",
+      "match": "Claim your",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    },
+    {
+      "category": "referral",
+      "match": "Earn $",
+      "weight": 2
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

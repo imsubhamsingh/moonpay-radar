@@ -1,0 +1,42 @@
+{
+  "client": "Ledger",
+  "account": "Ledger",
+  "tweet_id": "2090080621443862531",
+  "url": "https://x.com/Ledger/status/2090080621443862531",
+  "text": "It's the best day of the month: Happy BuyDay!\n\n0 processing fees for the next 24 hours when you buy digital assets natively in the Ledger Wallet\u2122 app. \n\nSelect your provider (@moonpay, @coinify, @sardine, @btcdirect, @BanxaOfficial, @TopperbyUphold & @Alchemy), execute your",
+  "posted_at": "2026-08-19T14:17:06.000Z",
+  "author_name": "Ledger",
+  "author_verified": true,
+  "author_verified_type": "Business",
+  "entities": {
+    "urls": [],
+    "cashtags": [],
+    "hashtags": []
+  },
+  "detected_at": "2026-08-22T12:47:21.095052+00:00",
+  "score": 8,
+  "categories": [
+    "partner_mention",
+    "promo",
+    "urgency"
+  ],
+  "signals": [
+    {
+      "category": "promo",
+      "match": "0 processing fees",
+      "weight": 2
+    },
+    {
+      "category": "urgency",
+      "match": "for the next 24 hours",
+      "weight": 2
+    },
+    {
+      "category": "partner_mention",
+      "match": "@moonpay",
+      "weight": 4
+    }
+  ],
+  "risk": "medium",
+  "is_event": true
+}

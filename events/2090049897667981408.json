@@ -1,0 +1,62 @@
+{
+  "client": "[unauthorized] @Fox_Looper",
+  "account": "Fox_Looper",
+  "tweet_id": "2090049897667981408",
+  "url": "https://x.com/Fox_Looper/status/2090049897667981408",
+  "text": "\ud83d\udea8 Earn $USDC with MoonPay PayBox! \ud83d\udc8e\n\n\u2728 Agent-initiated crypto payments\n\ud83d\udcb5 Free $USDC rewards for wallet drop\n\ud83d\ude80 Massive yield potential like $ARB hype\n\nConnect your wallet to claim today \ud83d\udc47\n\nhttps://t.co/NyridJBQXN\n\n#Crypto #MoonPay ",
+  "posted_at": "Wed Aug 19 12:15:01 +0000 2026",
+  "author_name": "\uc7a5\ud615\uc11d",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "https://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$ARB",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Crypto",
+      "#MoonPay"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.171820+00:00",
+  "score": 8,
+  "categories": [
+    "referral",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "wallet_action",
+      "match": "Connect your wallet",
+      "weight": 6
+    },
+    {
+      "category": "referral",
+      "match": "Earn $",
+      "weight": 2
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 8,
+  "fraud_risk": "medium",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

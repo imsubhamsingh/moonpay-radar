@@ -1,0 +1,85 @@
+{
+  "client": "[unauthorized] @MallG2x0",
+  "account": "MallG2x0",
+  "tweet_id": "2090895096673714180",
+  "url": "https://x.com/MallG2x0/status/2090895096673714180",
+  "text": "\ud83d\ude80 MoonPay drops PayBox \u2013 grab USDC rewards before they vanish!\n\n\ud83d\udd17 Connect your wallet instantly\n\ud83d\udcb0 Earn $USDC on every transaction\n\u26a1\ufe0f Powered on EVM, works with $ETH & $SOL\n\nClaim your share now \u2013 limited spots!\n\nhttps://t.co/rhxunuKvUS\n\n#Airdrop #Crypto #D",
+  "posted_at": "Fri Aug 21 20:13:32 +0000 2026",
+  "author_name": "MallG",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$ETH",
+      "$SOL",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Airdrop",
+      "#Crypto",
+      "#D"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.165231+00:00",
+  "score": 17,
+  "categories": [
+    "airdrop",
+    "referral",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Airdrop",
+      "weight": 5
+    },
+    {
+      "category": "airdrop",
+      "match": "Claim your",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect your wallet",
+      "weight": 6
+    },
+    {
+      "category": "referral",
+      "match": "Earn $",
+      "weight": 2
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

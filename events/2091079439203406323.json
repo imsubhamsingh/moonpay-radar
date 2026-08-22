@@ -1,0 +1,91 @@
+{
+  "client": "[unauthorized] @dwinstlip",
+  "account": "dwinstlip",
+  "tweet_id": "2091079439203406323",
+  "url": "https://x.com/dwinstlip/status/2091079439203406323",
+  "text": "\ud83d\ude80 MoonPay PayBox is LIVE \u2013 snag $USDC rewards now!\n\n\ud83d\udd17 Connect wallet instantly\n\ud83d\udcb8 Earn $USDC on $ETH/$SOL swaps\n\u26a1\ufe0f EVM-powered, fast & easy\n\nClaim now \u2013 slots limited, act fast!\n\nhttps://t.co/BcLnN4RalH\n\n#Airdrop #DeFi #Cry",
+  "posted_at": "Sat Aug 22 08:26:03 +0000 2026",
+  "author_name": "LegendChang",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$ETH",
+      "$SOL",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Airdrop",
+      "#Cry",
+      "#DeFi"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.158325+00:00",
+  "score": 20,
+  "categories": [
+    "airdrop",
+    "launch",
+    "referral",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Airdrop",
+      "weight": 5
+    },
+    {
+      "category": "airdrop",
+      "match": "Claim now",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    },
+    {
+      "category": "referral",
+      "match": "Earn $",
+      "weight": 2
+    },
+    {
+      "category": "launch",
+      "match": "is LIVE",
+      "weight": 3
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

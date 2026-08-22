@@ -1,0 +1,73 @@
+{
+  "client": "[unauthorized] @dwinstlip",
+  "account": "dwinstlip",
+  "tweet_id": "2090785650211541168",
+  "url": "https://x.com/dwinstlip/status/2090785650211541168",
+  "text": "\ud83d\udcb8 MoonPay PayBox Earnings Live! \ud83d\ude80\n\n\u2728 Initiate transactions via agents\n\ud83d\udcb5 Connect wallet to get $USDC rewards\n\ud83c\udfaf Hot opportunity for $BASE users\n\nConnect wallet to claim rewards \ud83d\udc47\n\nhttps://t.co/BcLnN4RalH\n\n#Crypto #FreeCrypto #Giv",
+  "posted_at": "Fri Aug 21 12:58:38 +0000 2026",
+  "author_name": "LegendChang",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$BASE",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Crypto",
+      "#FreeCrypto",
+      "#Giv"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.167357+00:00",
+  "score": 10,
+  "categories": [
+    "airdrop",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "claim rewards",
+      "weight": 4
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

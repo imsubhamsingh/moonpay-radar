@@ -1,0 +1,42 @@
+{
+  "client": "Binance",
+  "account": "binance",
+  "tweet_id": "2090861975949525059",
+  "url": "https://x.com/binance/status/2090861975949525059",
+  "text": "Got friends who are ready to start their crypto journey?\n\nInvite them to join Binance and earn points for every qualified referral. Redeem now, or save up for higher-tier rewards. \n\nDetails \ud83d\udc49 https://t.co/EWTxktcux1 https://t.co/f7ZF9kprTD",
+  "posted_at": "Fri Aug 21 18:01:56 +0000 2026",
+  "author_name": "Binance",
+  "author_verified": true,
+  "author_verified_type": "Business",
+  "entities": {
+    "urls": [
+      "https://www.binance.com/referral/tier-reward/0820globalaug"
+    ],
+    "cashtags": [],
+    "hashtags": []
+  },
+  "detected_at": "2026-08-22T12:47:47.045617+00:00",
+  "score": 7,
+  "categories": [
+    "referral"
+  ],
+  "signals": [
+    {
+      "category": "referral",
+      "match": "referral",
+      "weight": 3
+    },
+    {
+      "category": "referral",
+      "match": "earn points",
+      "weight": 2
+    },
+    {
+      "category": "referral",
+      "match": "Invite them",
+      "weight": 2
+    }
+  ],
+  "risk": "low",
+  "is_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "client": "pump.fun",
+  "account": "Pumpfun",
+  "tweet_id": "2087913072644001849",
+  "url": "https://x.com/Pumpfun/status/2087913072644001849",
+  "text": "Introducing Callout Rewards\n\nCallout tokens and get paid DAILY based on the volume your callout drives to a token.\n\nAvailable to ALL USERS, exclusively on the Pumpfun app. Start earning now \ud83d\udc47 https://t.co/AUlKsCKqlV",
+  "posted_at": "Thu Aug 13 14:44:02 +0000 2026",
+  "author_name": "Pump.fun",
+  "author_verified": true,
+  "author_verified_type": "Business",
+  "entities": {
+    "urls": [
+      "https://t.co/AUlKsCKqlV"
+    ],
+    "cashtags": [],
+    "hashtags": []
+  },
+  "detected_at": "2026-08-22T12:47:47.041292+00:00",
+  "score": 5,
+  "categories": [
+    "launch",
+    "promo"
+  ],
+  "signals": [
+    {
+      "category": "launch",
+      "match": "Introducing",
+      "weight": 3
+    },
+    {
+      "category": "promo",
+      "match": "get paid",
+      "weight": 2
+    }
+  ],
+  "risk": "low",
+  "is_event": true
+}

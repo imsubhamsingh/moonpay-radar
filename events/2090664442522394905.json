@@ -1,0 +1,72 @@
+{
+  "client": "[unauthorized] @Fox_Looper",
+  "account": "Fox_Looper",
+  "tweet_id": "2090664442522394905",
+  "url": "https://x.com/Fox_Looper/status/2090664442522394905",
+  "text": "\ud83c\udfc6 MoonPay PayBox Is Now Open! \ud83d\udcb8\n\n\ud83e\udd16 Automated agent payment engine\n\ud83d\udcb0 Connect wallet for $USDC earnings\n\ud83d\ude80 Hot alpha following $LINK trends\n\nConnect your wallet to claim today \ud83d\udc47\n\nhttps://t.co/wloiG1nvXl\n\n#Airdrop #PayBox #",
+  "posted_at": "Fri Aug 21 04:57:00 +0000 2026",
+  "author_name": "\uc7a5\ud615\uc11d",
+  "author_verified": false,
+  "author_verified_type": null,
+  "entities": {
+    "urls": [
+      "http://tr.ee/boxapp"
+    ],
+    "cashtags": [
+      "$LINK",
+      "$USDC"
+    ],
+    "hashtags": [
+      "#Airdrop",
+      "#PayBox"
+    ]
+  },
+  "detected_at": "2026-08-22T12:20:35.168462+00:00",
+  "score": 11,
+  "categories": [
+    "airdrop",
+    "wallet_action"
+  ],
+  "signals": [
+    {
+      "category": "airdrop",
+      "match": "Airdrop",
+      "weight": 5
+    },
+    {
+      "category": "wallet_action",
+      "match": "Connect wallet",
+      "weight": 6
+    }
+  ],
+  "risk": "high",
+  "is_event": true,
+  "is_impersonation": true,
+  "promotional_mention": false,
+  "fraud_score": 16,
+  "fraud_risk": "high",
+  "fraud_signals": [
+    {
+      "kind": "unverified",
+      "weight": 3,
+      "detail": "author carries no verification"
+    },
+    {
+      "kind": "wallet_action",
+      "weight": 5,
+      "detail": "asks for a wallet connection or key"
+    },
+    {
+      "kind": "incentive",
+      "weight": 3,
+      "detail": "offers an airdrop, giveaway or presale"
+    },
+    {
+      "kind": "offsite_link",
+      "weight": 5,
+      "detail": "campaign links to tr.ee"
+    }
+  ],
+  "source": "search",
+  "query": "moonpay claim"
+}

@@ -1,0 +1,30 @@
+{
+  "client": "pump.fun",
+  "account": "Pumpfun",
+  "tweet_id": "2090923849982382407",
+  "url": "https://x.com/Pumpfun/status/2090923849982382407",
+  "text": "RT @miragemunny: mirage joins the fray!\n\nfor the first time, i will be experimenting with social trading \u2014 in partnership with @pumpfun\n\naf\u2026",
+  "posted_at": "Fri Aug 21 22:07:47 +0000 2026",
+  "author_name": "Pump.fun",
+  "author_verified": true,
+  "author_verified_type": "Business",
+  "entities": {
+    "urls": [],
+    "cashtags": [],
+    "hashtags": []
+  },
+  "detected_at": "2026-08-22T12:47:47.041751+00:00",
+  "score": 4,
+  "categories": [
+    "sponsorship"
+  ],
+  "signals": [
+    {
+      "category": "sponsorship",
+      "match": "in partnership with",
+      "weight": 4
+    }
+  ],
+  "risk": "low",
+  "is_event": true
+}
